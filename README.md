@@ -1,18 +1,18 @@
 # 🏨 Hotel Booking Cancellations – Data Science Project
 
-## 📌 Project Description
+## Project Description
 
 This project focuses on analyzing and modeling hotel booking cancellations using data science methods. By leveraging a publicly available dataset from Kaggle, we explored the data, performed preprocessing, and developed predictive models to identify key factors that influence booking cancellations.
 
 Cancellations can significantly impact hotel revenue and operational efficiency. Therefore, understanding customer behaviors behind cancellations helps management develop smarter strategies in promotions, refund policies, and reservation systems.
 
-## 🎯 Objectives
+## Objectives
 
 - Identify the most influential features contributing to booking cancellations.
 - Develop a predictive model to classify potential cancellations.
 - Provide actionable insights for hotel management.
 
-## 🧾 Dataset
+## Dataset
 
 - **Source**: Kaggle – Hotel Booking Demand Dataset  
 - **Total Records**: 119,390 rows  
@@ -21,7 +21,7 @@ Cancellations can significantly impact hotel revenue and operational efficiency.
   - `is_repeated_guest`, `previous_cancellations`, `reserved_room_type`
   - `deposit_type`, `adr`, `booking_changes`, `reservation_status_date`
 
-## 🔍 Project Workflow
+## Project Workflow
 
 1. **Exploratory Data Analysis (EDA)**  
    - Cancellation distribution  
@@ -40,24 +40,13 @@ Cancellations can significantly impact hotel revenue and operational efficiency.
    - Best performance model: [insert model name from notebook]  
    - Evaluation: Accuracy, Precision, Recall, F1-Score
 
-## 📁 Repository Structure
-
-```
-📁 hotel-booking-cancellations/
-├── 📄 README.md
-├── 📊 Final_Presentation.pdf 
-├── 📓 notebook_colab.ipynb
-├── 📂 dataset/
-│   └── hotel_bookings.csv
-```
-
-## 💡 Key Insights
+## Key Insights
 
 - Guests who book far in advance, are not repeat customers, and don’t make deposits are more likely to cancel.
 - The most influential features: `lead_time`, `adr`, and `previous_cancellations`.
 - The best predictive model achieved [XX%] accuracy and can be used for early warning systems.
 
-## 👨‍💻 Project Team
+## Project Team
 
 - M Agil Mubarok (2012210012)  
 - Afica Marsha Nurcahaya (2012310002)  
